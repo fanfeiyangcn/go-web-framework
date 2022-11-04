@@ -21,7 +21,7 @@ type IResponse interface {
 	Xml(obj interface{}) IResponse
 
 	// html输出
-	Html(file string, obj interface{}) IResponse
+	Html(template string, obj interface{}) IResponse
 
 	// string
 	Text(format string, values ...interface{}) IResponse
