@@ -1,8 +1,12 @@
+// Copyright 2021 jianfengye.  All rights reserved.
+// Use of this source code is governed by a MIT style
+// license that can be found in the LICENSE file.
 package middleware
 
 import (
-	"coredemo/framework/gin"
 	"fmt"
+
+	"github.com/gohade/hade/framework/gin"
 )
 
 func Test1() gin.HandlerFunc {

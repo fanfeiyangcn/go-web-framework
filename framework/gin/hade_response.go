@@ -1,3 +1,6 @@
+// Copyright 2021 jianfengye.  All rights reserved.
+// Use of this source code is governed by a MIT style
+// license that can be found in the LICENSE file.
 package gin
 
 import (
@@ -77,7 +80,7 @@ func (ctx *Context) IJsonp(obj interface{}) IResponse {
 	return ctx
 }
 
-// xml输出
+//xml输出
 func (ctx *Context) IXml(obj interface{}) IResponse {
 	byt, err := xml.Marshal(obj)
 	if err != nil {
