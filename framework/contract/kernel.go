@@ -1,8 +1,6 @@
 package contract
 
-import (
-	"net/http"
-)
+import "net/http"
 
 const KernelKey = "hade:kernel"
 
